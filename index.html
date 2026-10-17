@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff5f7" />
+    <meta
+      name="description"
+      content="A little birthday surprise made with love."
+    />
+    <title>Happy Birthday, My Love ♡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="welcome-screen" id="welcomeScreen">
+      <div class="welcome-card">
+        <div class="welcome-sparkle">✦ ♡ ✦</div>
+        <p class="eyebrow">A LITTLE SURPRISE FOR</p>
+        <h1 id="welcomeName">My Dear Lavzz</h1>
+        <p>Someone loves you more than words can say…</p>
+        <button class="button button-primary" id="enterBirthday" type="button">Open your surprise 💌</button>
+      </div>
+    </div>
+    <div class="hearts" id="hearts" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Back to the top"
+        >for my world <span>♡</span></a
+      >
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mainNav"
+      >
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#our-memories">Memories</a>
+        <a href="#timeline">Our story</a>
+        <a href="#love-notes">Love notes</a>
+        <a href="#surprise">Surprise</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-content">
+          <h1>
+            Happy Birthday,<br /><span
+              class="highlight"
+              id="birthdayName"
+            ></span>
+          </h1>
+          <p class="hero-copy">
+            my pretty girlieee 🥹💗🎀 you’re literally my favourite person, my
+            safe place, and my forever crush. love you smmmm 😭🫶🏻
+          </p>
+          <div class="hero-actions">
+            <button
+              class="button button-primary"
+              id="startButton"
+              type="button"
+            >
+              Let the magic begin <span aria-hidden="true">♡</span>
+            </button>
+            <a class="button button-secondary" href="#letter"
+              >A letter for you</a
+            >
+          </div>
+          <p class="hero-note">made with love, just for my girl 🎀 ✨</p>
+        </div>
+        <div class="hero-art" aria-label="Decorative birthday illustration">
+          <div class="hero-glow"></div>
+          <div class="hero-spark spark-one">✦</div>
+          <div class="hero-spark spark-two">♡</div>
+          <div class="hero-photo-frame">
+            <div class="hero-photo-placeholder">
+              <img
+                src="https://photoshop-kopona.com/uploads/posts/2020-09/1601467848_44.jpg"
+                alt="A romantic birthday memory"
+                loading="eager"
+              />
+            </div>
+          </div>
+          <div class="floating-tag tag-top">my favourite person ♡</div>
+          <div class="floating-tag tag-bottom">you make life sweeter</div>
+        </div>
+        <a
+          class="scroll-cue"
+          href="#our-memories"
+          aria-label="Scroll to memories"
+          ><span></span> scroll to explore</a
+        >
+      </section>
+
+      <section class="section intro-section" id="memories">
+        <p class="eyebrow">TODAY IS YOUR DAY</p>
+        <h2>A little reminder of <span>how special you are.</span></h2>
+        <p class="section-description">
+          Your smile, your kindness, your little habits, and the way you make
+          ordinary moments feel special — there are so many reasons to celebrate
+          you.
+        </p>
+        <div class="reason-grid">
+          <article class="reason-card">
+            <span class="reason-icon">🌷</span>
+            <h3>Your beautiful heart</h3>
+            <p>The warmth and kindness you bring into the lives around you.</p>
+          </article>
+          <article class="reason-card">
+            <span class="reason-icon">✨</span>
+            <h3>Your lovely smile</h3>
+            <p>One smile from you can make even an ordinary day brighter.</p>
+          </article>
+          <article class="reason-card">
+            <span class="reason-icon">💗</span>
+            <h3>The way you feel like home</h3>
+            <p>
+              With you, even the simplest moments become memories I treasure.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section personal-gallery" id="our-memories">
+        <p class="eyebrow">LITTLE MOMENTS, BIG FEELINGS</p>
+        <h2>Our favourite <span>memories.</span></h2>
+        <p class="section-description">
+          A few snapshots of the moments I want to keep close to my heart.
+        </p>
+        <div class="photo-grid">
+          <article class="photo-card">
+            <img
+              src="images/first-memory.jpg"
+              alt="A favourite memory together"
+              loading="lazy"
+            />
+            <div class="photo-caption">
+              <h3>Where it all began 🌷</h3>
+              <p>
+                Replace this caption with a detail about a special early memory.
+              </p>
+            </div>
+          </article>
+          <article class="photo-card">
+            <img
+              src="images/favourite-day.jpg"
+              alt="A favourite day together"
+              loading="lazy"
+            />
+            <div class="photo-caption">
+              <h3>A day to remember ✨</h3>
+              <p>
+                Write about a day that still makes you smile when you think of
+                it.
+              </p>
+            </div>
+          </article>
+          <article class="photo-card">
+            <img
+              src="images/best-smile.jpg"
+              alt="A photo of her beautiful smile"
+              loading="lazy"
+            />
+            <div class="photo-caption">
+              <h3>That lovely smile 💗</h3>
+              <p>Somehow, your smile keeps becoming my favourite view.</p>
+            </div>
+          </article>
+          <article class="photo-card">
+            <img
+              src="images/best-smile.jpg"
+              alt="A photo of her beautiful smile"
+              loading="lazy"
+            />
+            <div class="photo-caption">
+              <h3>That lovely smile 💗</h3>
+              <p>Somehow, your smile keeps becoming my favourite view.</p>
+            </div>
+          </article>
+        </div>
+        <p class="photo-tip">
+          Personalise it: add your photos to the <code>images</code> folder
+          using the filenames shown above.
+        </p>
+      </section>
+
+      <section class="section letter-section" id="letter">
+        <div class="letter-ornament" aria-hidden="true">♡</div>
+        <p class="eyebrow">FROM MY HEART TO YOURS</p>
+        <h2>A letter, <span>just for you.</span></h2>
+        <p class="section-description">
+          Some feelings deserve more than a text message.
+        </p>
+        <button
+          class="button button-primary"
+          id="letterButton"
+          type="button"
+          aria-expanded="false"
+          aria-controls="loveLetter"
+        >
+          Open my love letter 💌
+        </button>
+        <article class="love-letter" id="loveLetter" hidden>
+          <p class="letter-salutation">My love,</p>
+          <p>
+            Happy Birthday to someone who has become such a beautiful part of my
+            life. You bring so much warmth, happiness, and meaning into my days,
+            often in ways you may not even realise.
+          </p>
+          <p>
+            I hope this new year of your life brings you peace when things feel
+            difficult, courage when you chase your dreams, and countless little
+            reasons to smile. I hope you always remember how capable, wonderful,
+            and deeply appreciated you are.
+          </p>
+          <p>
+            When I think about the future, I feel excited about all the moments
+            still waiting for us — the ordinary days, the silly laughs, the
+            adventures, and the next beautiful chapter we're going to begin
+            together.
+          </p>
+          <p>
+            Today, I just want you to feel celebrated, cared for, and loved. You
+            deserve all the happiness your heart can hold.
+          </p>
+          <p class="letter-signoff">
+            Happy Birthday, my favourite person. ❤️<br /><span
+              >Always cheering for you.</span
+            >
+          </p>
+        </article>
+      </section>
+
+      <section class="section timeline-section" id="timeline">
+        <p class="eyebrow">OUR STORY SO FAR</p>
+        <h2>Our story, <span>our forever.</span></h2>
+        <p class="section-description">
+          Every moment with you is a memory I want to keep forever.
+        </p>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true">♡</div>
+            <div class="timeline-card">
+              <span class="timeline-date">THE BEGINNING</span>
+              <h3>When our story began 🌷</h3>
+              <p>
+                Little did I know that you would become such a beautiful part of
+                my life.
+              </p>
+              <small
+                >Personalise this with the date or details of how you
+                met.</small
+              >
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true">♡</div>
+            <div class="timeline-card">
+              <span class="timeline-date">MY FAVOURITE MEMORIES</span>
+              <h3>All our little moments ✨</h3>
+              <p>
+                Every conversation, every laugh, and every moment together makes
+                my feelings for you grow.
+              </p>
+              <small>Add one of your favourite memories here.</small>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true">♡</div>
+            <div class="timeline-card">
+              <span class="timeline-date">A BEAUTIFUL NEW CHAPTER</span>
+              <h3>Our engagement is coming 💍</h3>
+              <p>
+                Soon, we'll take another beautiful step in our journey together.
+                I can't wait to make more memories with you.
+              </p>
+              <small>Our next special milestone awaits.</small>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true">∞</div>
+            <div class="timeline-card">
+              <span class="timeline-date">OUR FUTURE</span>
+              <h3>A lifetime of us ❤️</h3>
+              <p>
+                More birthdays, more adventures, more laughter, and a future
+                filled with love. My favourite dreams are the ones that include
+                you.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section notes-section" id="love-notes">
+        <p class="eyebrow">OPEN WHENEVER YOU NEED A HUG</p>
+        <h2>Little notes <span>for your heart.</span></h2>
+        <p class="section-description">
+          Choose an envelope. I've tucked a little message inside each one.
+        </p>
+        <div class="notes-grid">
+          <button
+            class="note-card"
+            type="button"
+            data-note="0"
+            aria-expanded="false"
+          >
+            <span class="note-envelope" aria-hidden="true">💌</span
+            ><span class="note-title">When you miss me</span
+            ><span class="note-hint">Open this note ↗</span>
+          </button>
+          <button
+            class="note-card"
+            type="button"
+            data-note="1"
+            aria-expanded="false"
+          >
+            <span class="note-envelope" aria-hidden="true">🫂</span
+            ><span class="note-title">When you feel sad</span
+            ><span class="note-hint">Open this note ↗</span>
+          </button>
+          <button
+            class="note-card"
+            type="button"
+            data-note="2"
+            aria-expanded="false"
+          >
+            <span class="note-envelope" aria-hidden="true">🎂</span
+            ><span class="note-title">On your birthday</span
+            ><span class="note-hint">Open this note ↗</span>
+          </button>
+          <button
+            class="note-card"
+            type="button"
+            data-note="3"
+            aria-expanded="false"
+          >
+            <span class="note-envelope" aria-hidden="true">💍</span
+            ><span class="note-title">For our future</span
+            ><span class="note-hint">Open this note ↗</span>
+          </button>
+        </div>
+        <article class="note-reveal" id="noteReveal" hidden aria-live="polite">
+          <button
+            class="close-note"
+            id="closeNote"
+            type="button"
+            aria-label="Close note"
+          >
+            ×
+          </button>
+          <div class="note-reveal-icon" aria-hidden="true">♡</div>
+          <h3 id="noteRevealTitle"></h3>
+          <p id="noteRevealText"></p>
+        </article>
+      </section>
+
+      <section class="section wish-section" id="wish">
+        <p class="eyebrow">MAKE A LITTLE WISH</p>
+        <h2>May this year bring you <span>beautiful things.</span></h2>
+        <p class="section-description">
+          Close your eyes, make a wish, and let this little birthday moment be
+          yours.
+        </p>
+        <button
+          class="button button-primary"
+          id="wishButton"
+          type="button"
+          aria-controls="wishMessage"
+        >
+          Send a birthday wish ✨
+        </button>
+        <p class="wish-message" id="wishMessage" hidden aria-live="polite">
+          May your dreams find their way to you, may your heart feel light, and
+          may you always know how loved you are. Happy Birthday! 💖
+        </p>
+      </section>
+
+
+      <section class="section cake-section" id="birthday-cake">
+        <p class="eyebrow">A LITTLE BIRTHDAY MAGIC</p>
+        <h2>Make a wish, <span>my love.</span></h2>
+        <p class="section-description">Tap each candle to blow it out, then make your birthday wish. ✨</p>
+        <div class="cake-stage" id="cakeStage">
+          <div class="cake-candles" aria-label="Three birthday candles">
+            <button class="candle" type="button" aria-label="Blow out candle one"><span class="flame"></span></button>
+            <button class="candle" type="button" aria-label="Blow out candle two"><span class="flame"></span></button>
+            <button class="candle" type="button" aria-label="Blow out candle three"><span class="flame"></span></button>
+          </div>
+          <div class="cake cake-top"></div><div class="cake cake-bottom"></div>
+          <div class="cake-plate"></div>
+        </div>
+        <p class="cake-status" id="cakeStatus" aria-live="polite">Three little wishes, just for you. 💗</p>
+        <button class="button button-primary" id="cakeWishButton" type="button">Make my wish ✨</button>
+        <p class="cake-wish" id="cakeWish" hidden>May every beautiful dream in your heart find its way to you. And may I always be beside you, cheering you on. Happy Birthday, my forever person. 💖</p>
+      </section>
+
+      <section class="section quiz-section" id="our-quiz">
+        <p class="eyebrow">JUST FOR US</p>
+        <h2>How well do you <span>know our love?</span></h2>
+        <p class="section-description">A tiny love quiz! Pick your answer and see your result. The questions are easy… because the answer is always us. 💕</p>
+        <div class="quiz-card" id="quizCard">
+          <div class="quiz-progress"><span id="quizProgress"></span></div>
+          <p class="quiz-count" id="quizCount">QUESTION 1 OF 4</p>
+          <h3 id="quizQuestion">What's my favourite thing about you?</h3>
+          <div class="quiz-options" id="quizOptions">
+            <button type="button" class="quiz-option" data-answer="0">Your smile 😊</button>
+            <button type="button" class="quiz-option" data-answer="1">Your heart 💗</button>
+            <button type="button" class="quiz-option" data-answer="2">Everything about you ✨</button>
+          </div>
+          <p class="quiz-feedback" id="quizFeedback" aria-live="polite"></p>
+          <button class="button button-secondary" id="quizNext" type="button" hidden>Next question →</button>
+        </div>
+      </section>
+
+      <section class="section secret-section" id="surprise">
+        <div class="secret-lock" id="secretLock">
+          <div class="secret-icon" aria-hidden="true">🎁</div>
+          <p class="eyebrow">ONE LAST LITTLE SURPRISE</p>
+          <h2>Something special, <span>just for you.</span></h2>
+          <p class="section-description">
+            There's one more message waiting for you. Ready?
+          </p>
+          <button class="button button-primary" id="unlockSecret" type="button">
+            Unlock your surprise 💗
+          </button>
+        </div>
+        <article class="secret-message" id="secretMessage" hidden>
+          <div class="secret-icon" aria-hidden="true">💖</div>
+          <p class="eyebrow">A LITTLE PROMISE FOR TOMORROW</p>
+          <h2>You're my <span>favourite future.</span></h2>
+          <p class="secret-letter">
+            If I could give you one gift that lasts forever, it would be the
+            ability to see yourself through my eyes. You would see how wonderful
+            you are, how deeply you are loved, and how happy I am to have you in
+            my life. We have so many beautiful moments ahead of us. Our next
+            chapter, our engagement, our dreams, and all the little things we'll
+            experience together. I can't wait to keep writing our story with
+            you, one beautiful memory at a time. Happy Birthday, my love. ❤️
+          </p>
+          <p class="secret-signature">With all my love, always. ♡</p>
+          <button
+            class="button button-secondary"
+            id="celebrateAgain"
+            type="button"
+          >
+            More love, please 💕
+          </button>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made with a full heart, just for you <span>♡</span></p>
+      <a href="#home">Back to the top ↑</a>
+    </footer>
+  </body>
+</html>
